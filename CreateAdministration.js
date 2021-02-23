@@ -59,6 +59,34 @@ function CreateAdministration() {
                                 />
                             </FormGroup>
 
+                            <FormGroup className='form-inline'>
+                                <Label for="Months">Nro de Meses</Label>
+                                <Input type="text" id="Months" name="payment" placeholder="Nro meses " required />
+                                <small class="text-muted"> Calculado entre fechas.</small>
+
+                            </FormGroup>
+
+                            <FormGroup className='form-inline'>
+                                <Label for="Payment">Forma de Pago</Label>
+                                <Col>
+                                    <Input type="select" name="select" id="Payment">
+                                        <option>Mesnsual</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </Input>
+                                </Col>
+                            </FormGroup>
+
+                            <FormGroup className='form-inline'>
+                                <Label for="ShareValue">Valor Cuota</Label>
+                                <small class="text-muted"> (Forma de pago)</small>
+                                <Input type="text" id="ShareValue" name="sharevalue" placeholder="cuota " required />
+                            </FormGroup>
+
+                            <Button color='primary'>Aceptar</Button>
+
                         </Col>
 
 
