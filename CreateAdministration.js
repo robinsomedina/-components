@@ -14,9 +14,7 @@ function CreateAdministration() {
                                 <Label for="CarPlate">Placa de Vehiculo</Label>
                                 <Input type="text" id="CarPlate" name="plate" placeholder="Placa " required />
 
-
                             </FormGroup>
-
 
                             <FormGroup className='form-inline'>
                                 <Label for="ID">Id</Label>

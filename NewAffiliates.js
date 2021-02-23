@@ -12,7 +12,7 @@ function NewAffiliates() {
                     <Col>
                         <FormGroup>
                             <Label for="DNI">Cedula/NT</Label>
-                            <Input type="text" id="DNI" name="email" placeholder="Cedula/NT" required />
+                            <Input type="text" id="DNI" name="dni" placeholder="Cedula/NT" required />
                         </FormGroup>
                     </Col>
 

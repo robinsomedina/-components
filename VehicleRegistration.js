@@ -14,12 +14,8 @@ function VehicleRegistration() {
                             <FormGroup className='form-inline'>
                                 <Label for="Branch">Sucursal / Convenio </Label>
                                 <Col>
-                                    <Input type="select" name="select" id="Select">
+                                    <Input type="select" name="branch" id="Branch">
                                         <option>Medellin</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
                                     </Input>
                                 </Col>
                             </FormGroup>
@@ -27,12 +23,8 @@ function VehicleRegistration() {
                             <FormGroup className='form-inline'>
                                 <Label for="CitySettled">Ciudad Radicado </Label>
                                 <Col>
-                                    <Input type="select" name="select" id="CitySettled">
+                                    <Input type="select" name="citysettled" id="CitySettled">
                                         <option>Medellin</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
                                     </Input>
                                 </Col>
                             </FormGroup>
@@ -56,19 +48,18 @@ function VehicleRegistration() {
                             <FormGroup className='form-inline'>
                                 <Label for="InternalNumber">Numero Interno </Label>
                                 <Col>
-                                    <Input type="text" id="InternalNumber" name="license" placeholder="Numero Interno" required />
+                                    <Input type="text" id="InternalNumber" name="internalnumber" placeholder="Numero Interno" required />
 
                                 </Col>
                             </FormGroup>
 
                             <FormGroup className='form-inline'>
-                                <Label for="Date">Fecha Matricula</Label>
+                                <Label for="EnrollmentDate">Fecha Matricula</Label>
                                 <Col>
                                     <Input
                                         type="date"
-                                        name="date"
-                                        id="Date"
-                                        placeholder="Fecha de Nacimiento"
+                                        name="enrollmentdate"
+                                        id="EnrollmentDate"
                                     />
                                 </Col>
                             </FormGroup>
@@ -84,7 +75,7 @@ function VehicleRegistration() {
                             <FormGroup className='form-inline'>
                                 <Label for="EngineNumber">Nro Motor </Label>
                                 <Col>
-                                    <Input type="text" id="EngineNumber" name="chassis" placeholder="Numero Motor" required />
+                                    <Input type="text" id="EngineNumber" name="enginenumber" placeholder="Numero Motor" required />
 
                                 </Col>
                             </FormGroup>
@@ -92,7 +83,7 @@ function VehicleRegistration() {
                             <FormGroup className='form-inline'>
                                 <Label for="Model">Modelo </Label>
                                 <Col>
-                                    <Input type="text" id="Model" name="chassis" placeholder="Modelo" required />
+                                    <Input type="text" id="Model" name="model" placeholder="Modelo" required />
 
                                 </Col>
                             </FormGroup>
@@ -100,7 +91,7 @@ function VehicleRegistration() {
                             <FormGroup className='form-inline'>
                                 <Label for="Mark">Marca </Label>
                                 <Col>
-                                    <Input type="text" id="Mark" name="chassis" placeholder="Marca" required />
+                                    <Input type="text" id="Mark" name="mark" placeholder="Marca" required />
 
                                 </Col>
                             </FormGroup>
@@ -108,12 +99,8 @@ function VehicleRegistration() {
                             <FormGroup className='form-inline'>
                                 <Label for="CylinderCapacity">Cilindraje</Label>
                                 <Col>
-                                    <Input type="select" name="select" id="CitySettled">
-                                        <option>Medellin</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
+                                    <Input type="select" name="cilindercapacity" id="CylinderCapacity">
+                                        <option>2.800</option>
                                     </Input>
                                 </Col>
                             </FormGroup>
@@ -121,7 +108,7 @@ function VehicleRegistration() {
                             <FormGroup className='form-inline'>
                                 <Label for="Color">Color </Label>
                                 <Col>
-                                    <Input type="select" name="select" id="Color">
+                                    <Input type="select" name="color" id="Color">
                                         <option>Verde</option>
                                         <option>Blanco</option>
                                     </Input>
@@ -131,9 +118,9 @@ function VehicleRegistration() {
                             <FormGroup className='form-inline'>
                                 <Label for="KindCar">Clase de Auto </Label>
                                 <Col>
-                                    <Input type="select" name="select" id="KindCar">
-                                        <option></option>
-                                        <option>Blanco</option>
+                                    <Input type="select" name="kindcar" id="KindCar">
+                                        <option>Doble Cabina</option>
+                                        <option>MicroBus</option>
                                     </Input>
                                 </Col>
                             </FormGroup>
@@ -141,19 +128,18 @@ function VehicleRegistration() {
                             <FormGroup className='form-inline'>
                                 <Label for="Capacity">Nro Puestos / Capacidad </Label>
                                 <Col>
-                                    <Input type="text" id="Capacity" name="capacidad" placeholder="Capacidad" required />
+                                    <Input type="text" id="Capacity" name="capacity" placeholder="Capacidad" required />
 
                                 </Col>
                             </FormGroup>
 
                             <FormGroup className='form-inline'>
-                                <Label for="Date">Vinculacion a la Empresa</Label>
+                                <Label for="TieUpDate">Vinculacion a la Empresa</Label>
                                 <Col>
                                     <Input
                                         type="date"
-                                        name="date"
-                                        id="Date"
-                                        placeholder="Vinculacion a la Empresa"
+                                        name="TieUpdate"
+                                        id="TieUpDate"
                                     />
                                 </Col>
                             </FormGroup>

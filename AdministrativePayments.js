@@ -2,22 +2,22 @@ import React, { useState, useEffect } from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 
-function DeleteAffiliates() {
+function AdministrativePayments() {
     return (
         <div >
             <Container className='mb-5'>
-                <h3 className='mb-5'>Eliminar Afiliados</h3>
+                <h3 className='mb-5'>Pagos Administracion de Vehiculos</h3>
                 <Form>
                     <Row>
                         <Col>
-                            <Label for="Delete">Eliminar</Label>
+                            
                             <FormGroup className='form-inline'>
-                                <Input type="text" id="Delete" name="delete" placeholder="Cedula/NT" required />
+                            <Label for="Plaque">Placa</Label>
+                                <Input type="text" id="Plaque" name="plaque" placeholder="---" required />
                                 <Button color='primary'>Buscar</Button>
 
                             </FormGroup>
-                            <small class="text-muted"> Recuerde que para eliminar un Afiliado no debe tener 
-                            Moviles Asociados.</small>
+
                         </Col>
                     </Row>
                 </Form>
@@ -26,4 +26,4 @@ function DeleteAffiliates() {
     );
 }
 
-export default DeleteAffiliates;
+export default AdministrativePayments;

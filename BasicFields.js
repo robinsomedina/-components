@@ -12,14 +12,14 @@ function BasicFields() {
                     <Col>
                         <FormGroup>
                             <Label for="Name">Nombre</Label>
-                            <Input type="text" id="Name" name="email" placeholder="Nombre" required />
+                            <Input type="text" id="Name" name="name" placeholder="Nombre" required />
                         </FormGroup>
                     </Col>
 
                     <Col>
                         <FormGroup>
                             <Label for="LastName">Apellidos</Label>
-                            <Input type="text" id="LastName" name="email" placeholder="Apellidos" required />
+                            <Input type="text" id="LastName" name="lastname" placeholder="Apellidos" required />
                         </FormGroup>
                     </Col>
 
@@ -29,25 +29,20 @@ function BasicFields() {
                 <Row>
                     <Col>
                         <FormGroup>
-                            <Label for="Date">Fecha de Nacimiento</Label>
+                            <Label for="DateBirth">Fecha de Nacimiento</Label>
                             <Input
                                 type="date"
                                 name="date"
-                                id="Date"
-                                placeholder="Fecha de Nacimiento"
+                                id="DateBirth"
                             />
                         </FormGroup>
                     </Col>
 
                     <Col>
                         <FormGroup>
-                            <Label for="Select">Ciudad (Sede Trasmovil)</Label>
-                            <Input type="select" name="select" id="Select">
+                            <Label for="CityCampus">Ciudad (Sede Trasmovil)</Label>
+                            <Input type="select" name="citycampus" id="CityCampus">
                                 <option>Medellin</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
                             </Input>
                         </FormGroup>
                     </Col>
@@ -125,8 +120,8 @@ function BasicFields() {
                     <Col>
                         <Form>
                             <FormGroup>
-                                <Label for="exampleEmail">Tel. Oficina</Label>
-                                <Input type="text" id="exampleEmail" name="email" placeholder="Telefono" />
+                                <Label for="TelephoneOffice">Tel. Oficina</Label>
+                                <Input type="text" id="TelephoneOffice" name="telephoneoffice" placeholder="Telefono" />
                             </FormGroup>
                         </Form>
                     </Col>
@@ -134,8 +129,8 @@ function BasicFields() {
                     <Col>
                         <Form>
                             <FormGroup>
-                                <Label for="exampleEmail">Pagina Web</Label>
-                                <Input type="text" id="exampleEmail" name="email" placeholder="https://www.MiWebSite.com/" />
+                                <Label for="WebPage">Pagina Web</Label>
+                                <Input type="text" id="WebPage" name="webpage" placeholder="https://www.MiWebSite.com/" />
                             </FormGroup>
                         </Form>
                     </Col>
